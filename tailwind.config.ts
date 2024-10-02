@@ -10,6 +10,9 @@ const config: Config = {
   theme: {
   	extend: {
   		colors: {
+			cvbutton: '#2C2C2C',
+			cvstroke:'#929292',
+			navcolor:'#1C1C1C',
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {
