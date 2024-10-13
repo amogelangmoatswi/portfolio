@@ -42,7 +42,7 @@ export function NavBar() {
     return (
         <div className={`transition-transform duration-500 ease-in-out ${visible ? 'translate-y-0' : '-translate-y-full'} fixed top-0 left-0 right-0 z-[50] py-4 bg-transparent`}>
             <div className="flex justify-center items-center w-full px-4">
-                <div className="flex justify-between items-center w-[50%] max-w-7xl text-slate-50 relative bg-navcolor border border-cvstroke shadow-sm border-opacity-20 rounded-[20px] p-2">
+                <div className="flex justify-between items-center w-[55%] text-slate-50 relative bg-navcolor border border-cvstroke shadow-sm border-opacity-20 rounded-[20px] p-2">
                     <Sheet>
                         <SheetTrigger className="min-[825px]:hidden p-2 transition">
                             <MenuIcon />
@@ -104,7 +104,7 @@ export function NavBar() {
                     </NavigationMenu>
                     
                     <Link href="/cv">
-                        <Button className=" bg-cvbutton text-white border border-cvstroke border-opacity-20 hover:bg-bghov max-[825px]:hidden">Download CV</Button>
+                        <Button variant="mine"  className=" max-[825px]:hidden">Download CV</Button>
                     </Link>
                 </div>
             </div>

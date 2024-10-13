@@ -13,6 +13,7 @@ const config: Config = {
 			cvbutton: '#2C2C2C',
 			cvstroke:'#929292',
 			navcolor:'#1C1C1C',
+			backgrou:'#0A0A0A',
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {

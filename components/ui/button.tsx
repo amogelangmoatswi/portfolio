@@ -12,13 +12,15 @@ const buttonVariants = cva(
         default:
           "bg-primary text-primary-foreground shadow hover:bg-primary/90",
         destructive:
-          "bg-destructive text-destructive-foreground shadow-sm hover:bg-destructive/90",
+          "bg-destructive text-destructive-foreground shadow-sm hover:bg-destructive/50",
         outline:
           "border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground",
         secondary:
           "bg-secondary text-secondary-foreground shadow-sm hover:bg-secondary/80",
         ghost: "hover:bg-accent/5",
         link: "text-primary underline-offset-4 hover:underline",
+        mine: "bg-cvbutton text-white/90 border border-cvstroke border-opacity-20 hover:bg-cvbutton/50",
+        mineghost: "bg-cvbutton/50 text-white border border-cvstroke border-opacity-20 hover:bg-cvbutton/30"
       },
       size: {
         default: "h-9 px-4 py-5",
@@ -26,6 +28,7 @@ const buttonVariants = cva(
         md: "h-10 rounded-md px-4",
         lg: "h-10 rounded-md px-8",
         icon: "h-9 w-9",
+        icontext: "h-9 px-3 ",
       },
     },
     defaultVariants: {
