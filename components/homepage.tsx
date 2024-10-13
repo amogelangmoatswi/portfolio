@@ -1,5 +1,5 @@
-import { Button } from "@/components/ui/button"
-import { Github, Linkedin, Mail } from 'lucide-react'
+import { Button } from "@/components/ui/button";
+import { Github, Linkedin, Mail } from 'lucide-react';
 import Image from 'next/image';
 
 interface SkillSectionProps {
@@ -24,7 +24,7 @@ function SkillSection({ title, skills }: SkillSectionProps) {
         ))}
       </div>
     </div>
-  )
+  );
 }
 
 function ProjectCard({ title, description }: ProjectCardProps) {
@@ -35,18 +35,17 @@ function ProjectCard({ title, description }: ProjectCardProps) {
       <p className="text-gray-400 text-sm mb-4">{description}</p>
       <Button variant="outline" size="sm" className="hover:bg-gray-800">View Project</Button>
     </div>
-  )
+  );
 }
 
 export default function HomePage() {
   return (
     <div className="text-white">
-      <div className="w-[55%] md:mt-20 sm:mt-4 mx-auto px-4">
+      <div className="w-full md:w-[75%] lg:w-[55%] mt-10 md:mt-20 mx-auto px-4">
       
-
         {/* Profile Section */}
         <section className="relative mb-16">
-        <div className="relative h-52 w-full rounded-lg overflow-hidden">
+          <div className="relative h-40 sm:h-52 w-full rounded-lg overflow-hidden">
             <Image
               src="/banner3.jpg"  // Replace with your image path
               alt="Profile background"
@@ -55,11 +54,11 @@ export default function HomePage() {
               className="rounded-lg"
             />
           </div>
-          <div className="absolute bottom-0 left-8 transform translate-y-1/2 w-24 h-24 bg-backgrou rounded-full border-4 border-backgrou overflow-hidden">
+          <div className="absolute bottom-0 left-4 sm:left-8 transform translate-y-1/2 w-16 h-16 sm:w-24 sm:h-24 bg-backgrou rounded-full border-4 border-backgrou overflow-hidden">
             <img src="/avatar.jpg" alt="Amogelang Moatswi" className="w-full h-full object-cover" />
           </div>
           <div className="absolute top-4 right-4">
-            <Button variant="mineghost"  className="transition-all duration-300 ease-in-out transform hover:scale-105">
+            <Button variant="mineghost" className="transition-all duration-300 ease-in-out transform hover:scale-105">
               <span className="relative flex h-3 w-3 mr-2">
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-3 w-3 bg-green-500"></span>
@@ -71,25 +70,22 @@ export default function HomePage() {
 
         {/* Details Section */}
         <section className="mt-16">
-          <div className="flex justify-between items-start">
+          <div className="flex flex-col md:flex-row justify-between items-start">
             <div>
-              <h2 className="text-3xl font-bold mb-2">Amogelang Moatswi</h2>
+              <h2 className="text-2xl sm:text-3xl font-bold mb-2">Amogelang Moatswi</h2>
               <p className="text-gray-400 mb-1">Developer / Network Engineer / Graphic Designer</p>
               <p className="text-gray-500 text-sm mb-4">Gaborone, Botswana, Africa</p>
             </div>
-            <div className="flex space-x-2">
-            <Button variant="mine" size="icon">
+            <div className="flex space-x-2 mt-4 md:mt-0">
+              <Button variant="mine" size="icon">
                 <Linkedin className="h-4 w-4" />
               </Button>
               <Button variant="mine" size="icon">
                 <Github className="h-4 w-4" />
               </Button>
-              <Button variant="mine" size="icon">
-                <Linkedin className="h-4 w-4" />
-              </Button>
               <Button variant="mine" size="icontext">
-              <Mail className="h-4 w-4" />
-              <span className="ml-2">Hire Me</span>
+                <Mail className="h-4 w-4" />
+                <span className="ml-2">Hire Me</span>
               </Button>
             </div>
           </div>
@@ -130,5 +126,5 @@ export default function HomePage() {
         </section>
       </div>
     </div>
-  )
+  );
 }
