@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { NavBar } from "@/components/navbar";
+import { Analytics } from '@vercel/analytics/react';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,6 +21,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
       <body className={`${inter.className} bg-backgrou flex flex-col min-h-screen`}>
         <NavBar />
         <main className="flex-grow pt-16">{children}</main>
+        <Analytics />
       </body>
     </html>
   );
