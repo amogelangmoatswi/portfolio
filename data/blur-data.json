@@ -1,0 +1,164 @@
+{
+  "/SamplesCompressed/absolute pefume flyer.webp": {
+    "blurDataURL": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAIAAAACUFjqAAAACXBIWXMAAAPoAAAD6AG1e1JrAAABQUlEQVR4nAE2Acn+ANILCNESDtIZE9MVD9gNCNkDAtsBAdsBAtsBAtoAAADQHBjLNy/HUkXMRjnRLyTNIBXDJBS+KRTIGwzUCQMA0i8qyWBXwZKCyHxsx1VCrjsfjEAUgkoUpTQNyBoFANE6NMZ7bby6psOpl8R6Z6tZPI1RJINXIJ5AF7ooDwDTPDbGfG3AvajDtaLIiHe3XUamPSChOhifNxqaNB0A1DQvy25exKiPxLCVzYh31VhR3SYm1R4coi8mbkAxANE3K8tbR8WAZcKGaMlsVs9NPdUqIL0nHX0+LzxVQgDddWvagnXTkH7QlYDQiHbVeWzWZlyvYVVvZ1YwblgA57mw4bWr3LGn3LGn26+m26+l2K2jvKmelaWYb6KSAPf29/Dw8Orq6urq6ufn5+fn5+Lj49ff3cfX0bjPxhC8lleVWboHAAAAAElFTkSuQmCC",
+    "width": 2000,
+    "height": 2000,
+    "aspectRatio": "square"
+  },
+  "/SamplesCompressed/brithday flyer.webp": {
+    "blurDataURL": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAIAAAACUFjqAAAACXBIWXMAAAPoAAAD6AG1e1JrAAABQUlEQVR4nAE2Acn+APb01uznx+Xev+XewOrkyevmzdDIsbuxlb60et3ZgwDu6s7h2rjWzKTf1rPi2rbk38LKvqLAsJLEs3ji14IA7OjJ3NOrzsCL2Myd2s6e4dq3yLeVx7GRxqxs3ctuAPDrvOHYpdLEitnMm9jLl+Tct8u6lMWvjrWcY8GuYAD06Znm2pLYzZDYzZzTyZ/Oyq2qoYeTiHN+b0yDeEYA999n7d1z5NyN4duhyMWhp6eUc3NqWFdRR0U9R0c9ANSzNMCtS6qnaqamfYqLd2NnYT5CQjk5NjU1MjEzMwC+lRufiCx/e0F7eEpkYkVISjs4OC9BPC87Ny0uLSsAvpIUn4Yif3ktfHgmdW8kXVomTEcpRD0qODInKCckAOOyGtW5Lci/PMfBM720MZGJL1tWKi8uIR4eHBYYG5PvqlkXWDzXAAAAAElFTkSuQmCC",
+    "width": 1892,
+    "height": 1990,
+    "aspectRatio": "square"
+  },
+  "/SamplesCompressed/Business-Card.pdf.webp": {
+    "blurDataURL": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAIAAAACUFjqAAAACXBIWXMAAAPoAAAD6AG1e1JrAAABQUlEQVR4nAE2Acn+AGlyy2pzy2pyy2ZvyGJqxV1lwVhhvlJbukpTtEZOrwB0fM9zfc5ueMtga8RYYb9XYL5UXLlSWrdLUrFIT7AAmKPdlp/Zgo3QanLDU126UFm0S1KoSk+iRkyjR02rAKu45K664ZKg1HR8wk5YtEhRqERKlUVIiUZEiUlEjwCyv+bDzumsuN2Ok8lmb7RcZKBRV4lIRHNOPnJUO3cAj5rYoqzemqTXj5XHdX+vd4Gea22HaFZzYUJwXDp1AHmBzYWN0oSM0ISKxIWNspeaoYyAh35fe2VEflhCjwBiacNhaMNgaMFpcL1webKJhqKFco59X4tbSJRIRqMAV1+9Vl69VF28VV26XGS1bGimbV6aX1CaSEWhPkWnAFFZulBZuU9YuE1WtkxVtE9Qq0xNqEhIpD5FpztCpLPjlpF7N2+mAAAAAElFTkSuQmCC",
+    "width": 3453,
+    "height": 3000,
+    "aspectRatio": "landscape"
+  },
+  "/SamplesCompressed/church flyer.webp": {
+    "blurDataURL": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAIAAAACUFjqAAAACXBIWXMAAAPoAAAD6AG1e1JrAAABQUlEQVR4nAE2Acn+ANZCAMo+AMhIDMhTG89fKcxcKsJVJ7xLHrM8EbIyBQDGRAW5QAW6TBbEXSvQcETMcUjGbEbBYjy4TSWyOg8AuEwSq0gTtFEgv1oqzms/xGpFvGhGtV48q0omozYQAKlQGppKHadOIbZLGchTIbpRJ69QK6ZMKZw+G5UwDQChViibWTWlVjGuRBTAOwW9PAu0PhKpPROfNAyXLAUAh0wtl2BFlVtCmEcjoDUJtT4OvUQWt0MXrzsQpzMIAGU8LotcS35WSH5JMoFDK7VmR9aAYNSAYM98Xct4WgBHJR9xQTNgOy9aNihgRj2acGHDkH63hnW8kYLGnY8ANxcRTiMXQBwTPSAXYFZUn5OR08jFxb27z83M3d3dADARCjUSCSoMBiUNB1tOTJeLh87CwL+3tcvJydvb2/TPeCV48SuvAAAAAElFTkSuQmCC",
+    "width": 2500,
+    "height": 2500,
+    "aspectRatio": "square"
+  },
+  "/SamplesCompressed/compression vest flyer.webp": {
+    "blurDataURL": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAIAAAACUFjqAAAACXBIWXMAAAPoAAAD6AG1e1JrAAABQUlEQVR4nAE2Acn+APkKG/kOH/kRI/kRJPkLIfkGIOcUKM8dLM8dLOAJIgD6HS36JjX7MD/7L0H6JDz5FjTkIznELDjELDjYESwA+yY1+zA//DxM/DpP+TNN6ChEzz5Ko0FBp0BBsh8zAPZGU/RYY/FrdvNkde1ba8pFVadISns9O4E8OYMoMADxY23qe4PllZzniJHXdHidUVBwQzxINC1OMStKJyUA7o2U5LCz39fY2r+9ypOPjFZSWDY1LSYmOCQkQyEjAN5qd9WKlM2osceVmbxvdYVESFQrMSIgITYdIU0dJQDPQ07FXGS7cni1aW20VV6FPkVYLDMgHh84GyBVHScAyRMgvyAqsikysy45rjNAgjU/TysxHh0fLxoeRBsiANUNFcsUGcEcIMIkLbMwO4AyPEksMB8eIScaHTMaHdJedpMIZRieAAAAAElFTkSuQmCC",
+    "width": 2500,
+    "height": 2557,
+    "aspectRatio": "square"
+  },
+  "/SamplesCompressed/couples flyer.webp": {
+    "blurDataURL": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAIAAAACUFjqAAAACXBIWXMAAAPoAAAD6AG1e1JrAAABQUlEQVR4nAE2Acn+APY7PPlSUvxpa/1obPpFSvomKt4eGtEyK9EtJ+0VFwD6Nz37TFL9ZGv9ZGz7TFb4Rk3gUFHXc2/ZambwVFUA/jJA/UVS/ltn/Vpn+1dl9ltl5n6C4qam46qp8ZWVAP41QP1DTP5UW/5TW/dfZPJ0dOuoo+/QyPHY0fTHvwDwZGXnYWDgYFziYV3kd3HieXLfmI/dn5bjubHnuLAA34Z5znRjwmVPzXJa2o553Z6O2K2k06if3bmw58O6AMqfkbF+bJ5hSa95Xsqhjde2qta+vc6urdrCwejW1QDLpp23in6pcmC8jHfSsaHfzsXg397f3t3p6Ofz8vIA2cfFzbSww6Odz7Kr28jD5NvZ6Ofn6ejo7+/v9fX1AOvs7ubl5ePf3uvm5O7r6vDu7e7u7e3t7PHx8fT09Ck0yXwCZw/JAAAAAElFTkSuQmCC",
+    "width": 2500,
+    "height": 2716,
+    "aspectRatio": "square"
+  },
+  "/SamplesCompressed/dolla images brading.webp": {
+    "blurDataURL": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAIAAAACUFjqAAAACXBIWXMAAAPoAAAD6AG1e1JrAAABQUlEQVR4nAE2Acn+ABcPgBgQgRYQgRUOgBMJeiAdhS4sgDIzYisjOyUbKAAwLp8vKpkqJJQlHpEbEogmJpJAPYpQSGlNPEhDND4AMzGqMSujLSaeJyGbHRWULi+bUkiHbFlibU1FYkpLACwpnislmSgilSMdkhwUjC8tjFFDcnhZVH1TQ3pXUQBKRZtJRZlJRZhIRJdHQZRHQopJO25UO1dXNk5aPVoAWWqrV2SfUViOSEh5U1F/S0d9Qzp5OCdvPCdwQCtzAGp+nGZ2kF9nflFRYWhmc1RRdUVBfhwVbx8Ydx4XeABUWWZSU19MRlE9MTldVFtPS2FGQ2ghHVIpJVotKl8AUUA4UUI+VEJCUTw7bFxeU01YPz5NHRwsJiUyLS05AFA7MFE/OlpFQV9GQnRiYFVOVTw8QyAfIysrKjM0MuyQWjN90fCnAAAAAElFTkSuQmCC",
+    "width": 2548,
+    "height": 1911,
+    "aspectRatio": "landscape"
+  },
+  "/SamplesCompressed/dolla images flyer.webp": {
+    "blurDataURL": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAIAAAACUFjqAAAACXBIWXMAAAPoAAAD6AG1e1JrAAABQUlEQVR4nAE2Acn+AAQvwAQwwAMuvw42wFVuy6Co1La82nuM0zRXyxQ+xAAbQ8UkSsgnS8gqTcdkeMuko8m0s851h8g2XsodS8QAN1nMSmnRUnDTTGnQeIjPpaHAsay9e4KwSGW0NlWtAD1cxFFtx1l1yVFtx3CAvI2MoKGXk4aAjHR5nGpznwA/XcJTbsRdd8dQbMBhdal9hpSgm4ymmZGkl5yelqMAK0u1OFW0O1m0OViyTWifeYuZqKubvLWswra0vbW5ADFKuD1VukJbvUJfvV51r5Ogtb7CvM3IyMS6u7qtsAAePLYkQbclRLk2VsFhecSdqsu9wsy7tr2so62dkqEAFje8GTu/Gz3AN1fJZHnMoKvTtrrOrKm5k5KtfoCmAAYywAgzwAozwDFSyFt0zZys2K651qSrxIaUwHCGwvmCn70x8mu0AAAAAElFTkSuQmCC",
+    "width": 2257,
+    "height": 2176,
+    "aspectRatio": "square"
+  },
+  "/SamplesCompressed/flyer04.webp": {
+    "blurDataURL": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAIAAAACUFjqAAAACXBIWXMAAAPoAAAD6AG1e1JrAAABQUlEQVR4nAE2Acn+ACMmUjw9WVVWZlNcdVFgfkBcjStToxZHsw9Bugo8ugAdJF8yOWlGUXdFWIVFXow/YZlHbK9Nc8FZe8lWeMoALTd5TVeLbnqgbH+qcoiwcY66g6DKkazXpLnforfeAD5JjWp1qJahxJWkyp2u0aO42bjM48zc6uLs8eXu8gBJW4t/k6S0y7y2y8TH2NfT4urd7PTd7vXk8PLm7+0ALkp0UHmCdamSjLmpstHL1ejq4fH24/P35e3m6OfUACpJcy1edTp7fV2Vm5O5v8PZ4Nnq7+Hv8ebl0enarwBtgKBggZ1ZhqBzm7aeuczE093R3eLW39/d18Hjz6IAwMPQsLfLoa3JobDMtcDUx87Y09jc1tnW39nI5te4APr27PDt5OLg3NPU19fZ3dra3N3c29jW1OHe1+rk2lC8xBIG/EOiAAAAAElFTkSuQmCC",
+    "width": 2396,
+    "height": 2700,
+    "aspectRatio": "square"
+  },
+  "/SamplesCompressed/FRENZYFEST flyer.webp": {
+    "blurDataURL": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAIAAAACUFjqAAAACXBIWXMAAAPoAAAD6AG1e1JrAAABQUlEQVR4nAE2Acn+AC5HbFxpUYSLP4+bSIuYR4+eVpSjXHiahE51jSdSlQAuTXdiclqSl0ukpkqgolGiplqjp1uDmnhPb38gSI0AJk+FVW9qjZZgrKhbs65ts65wpKNle41vQV5vGD1/ABA9gTFWc1x1dHuGcomQhY6Uh3uHfVZzfiZMdRA3ewAENIIXQ38zV4FHYoFVa4lVaohFX4EqTn4ONnMHK3AAASt6EjqCJEiFMk6DN019OEp5MkR3Hjh2CylvAiFoAAYpbxk6dylIfD5Oe0hHc1JAa1E5az4vbCQlaw0eaAAWMWEoQmMzU2I9WWJMUVtjR1VqOFxbLGk6IHAfGm0AY3SMa3yIbISBa4N9dnx4jHR0mWp/lGWQf2Cba1+cAKuzvKy0tKa2rZixqJmtqKOnp62frrOfvLCgxq6kyL1XexDwayxuAAAAAElFTkSuQmCC",
+    "width": 2308,
+    "height": 2500,
+    "aspectRatio": "square"
+  },
+  "/SamplesCompressed/Gold spectrum flyer.webp": {
+    "blurDataURL": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAIAAAACUFjqAAAACXBIWXMAAAPoAAAD6AG1e1JrAAABQUlEQVR4nAE2Acn+AIdWKpddOallSKxqR7dzSb53OMmFI9eVCOqsAfu6AQCWZDChaUCvb1GydFG/f1TFgT/MjCnVlxLkrBHyuBMAsX9DuIRcw4x3xZB5z5l7zZRhxpRMuY4zuZc0vpsyAMqsaM68ldXPw9jSxd7Yx9LEobeofZmJWZaKYKeZagDbu3Xezqrk4+Dk4+Ll5OPNybufnI96eW1+gn+ho5oAy7VfxsWKw9e4xdm9yNjBv8CqmZSHhH52lZaSx8e+AMSiPMCxW8DDgMDJkcXLor65oaGXioyCfZublsjHvQDJrljEtmTDw3i+xYi/v5C/tZu0ppiYko6bn5q0tqwA5smV5MqW5M6e2cqo0sauw7+1ubuznKaipa2os7ewAPXt3u7m1+Xf0tfUzczOyLnIxrXJxqK6t7O/urrCvftAvxbH8IOiAAAAAElFTkSuQmCC",
+    "width": 2388,
+    "height": 2664,
+    "aspectRatio": "square"
+  },
+  "/SamplesCompressed/icepop flyer.webp": {
+    "blurDataURL": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAIAAAACUFjqAAAACXBIWXMAAAPoAAAD6AG1e1JrAAABQUlEQVR4nAE2Acn+ABV5qBh7qh19qxqArx2OvCWgzC+u2Ue13F+933nF4QAkgq4siLM2kLkzk704n8hFr9Ravth3tceQprGjlqEAM4ixQZW7S6LGQqTJSa3SYbzci87Or7WnxYx2zV5bACuDrjuSuEWhxUWpzlK02G7B36DTwcaujN9vRN4pHwAjg68ujrg2nMM8psxVtMx7xM+r06/LqYPha0HgJh8AFISzG4y5J5nEPqnQZbrCh8ezrM6bxZ953mhO4i8oADhojDtukUR4mViEoXWgoIq1lKC9i6+Rb8dnWc9AOwBtQlZzT2N9XnGKbHyVkpSMoIqIo4aGdmCfX1SvTD8AdUdYelNkhmJxkm97nJejlqWpiaWdgIFqh3BRkWlIAEpog1B0jmCFnHeVqY+yxZi6yZOzqoyScIaCSoV9RcosoBhrclwRAAAAAElFTkSuQmCC",
+    "width": 2408,
+    "height": 2425,
+    "aspectRatio": "square"
+  },
+  "/SamplesCompressed/independance flyer.webp": {
+    "blurDataURL": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAIAAAACUFjqAAAACXBIWXMAAAPoAAAD6AG1e1JrAAABQUlEQVR4nAE2Acn+ANjVzsvU1K/R3JTN5X3H5Y/N5avT4NLf4N3g3t3h3wC1saSssKiVtr58utNswON2wuKNwdS2zNHS087e3toAjoZyhoV1dpGUZpquYKzLX6vJcqi6ka+zv8G52dnSAJKPfoB+b2h8elZ3f1eLnVWPomydp46vscXLxObn4QCxr6KNkodqgoBUbm9dfoNoh4qKqKiqv7vT2NDp6uQA29zUtryzkKileY6KgJaWk6CctMS+1d7W7Ovj9PDpAPPx6tvb0cLRzLG9ubbBwcbEwNvc1u7s5fTw6fXw6AD69/H17+Xt7eXf4t3U3+DP2t3S4eTb6uvl7evv7+oA+PDp9ezk9Ozk6urm3+fo0+Ln0uXp1uns4ezr7O7qAPbo4vLm3/Ln4Orv7OHv8NPr8NHq79Tq7uDs7Ozu6rPR5HZDVJt4AAAAAElFTkSuQmCC",
+    "width": 2500,
+    "height": 3000,
+    "aspectRatio": "portrait"
+  },
+  "/SamplesCompressed/iphone price table flyer.webp": {
+    "blurDataURL": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAIAAAACUFjqAAAACXBIWXMAAAPoAAAD6AG1e1JrAAABPUlEQVR4nC3JvUsCYRwA4Pc/agmaGoKWyKRBqShIyKWhISIaagvMwRQJMzsMSq0QEkIt8+M8zY/uTq3urnw/fveeREQ5BCHtIfSsD9or/4QfBvHH3xNlECp/xwpEEptqLnV5nt85kJFQ61+1vqTXfkH7vG1/5Ju409E1uZ7JKf5YG6Xk95rWs3pvDCwKlm50KZiYsJIM0QxByWqv0gbOOWPAwNT1FwCglIoKCOkuuiiaksI455QBY6Zu/HdB4eGsiRJZIjbwsCljDDTNYIwRQoqqFb4xUSKNS/UuAGBCKR02pRRjXFTN4zuOAqed+HVbamhi7Vlq6PlKq6pqUuspeW8EMgZaXvOvbwc9vojHF/EGhF1/yCscec5CW9FD934QjYzZxieddofL7nDNzq1MLyzZVhenNucnNpyj7pk/vzHYi9EELMgAAAAASUVORK5CYII=",
+    "width": 2266,
+    "height": 2515,
+    "aspectRatio": "square"
+  },
+  "/SamplesCompressed/Korpt Appreal Flyer 2.webp": {
+    "blurDataURL": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAIAAAACUFjqAAAACXBIWXMAAAPoAAAD6AG1e1JrAAABQUlEQVR4nAE2Acn+AMDl9ZbN4V+etEmOpl2cs3m60ojD2pDH3abW673l9wCk2e6Bx+Fer8pVp8NgrslmrcZpo7ltpruLv9Sr2/AAj8jgcb3ZYLzcX77eYrrZTpStRXqNSYCTc6i9nNDmAKDP44nH3oDI4X/L5oLH32mgtF6CkFyFlIOsvKbT5gC+2OScv82DscKAtceOvs57oa9ngothfomQqrS61eEA1eTsq7/Hgpukco2VgJmheZKZd42Vc4uTpri+zdzjALXM3JOquWyJl1dzf1p3hFh0g1x8jmGClI2nuLDF1QBxl7dkiaRQdYs6W28yUmcxUmlGa4VdepZ8jqyOl7cALWaXMmSNNWWJLFl6JFF0Ik1yLVd/R2OLVmSRX2WYAAxLgg9HdRNFbhBAaBE/aBI+Zx5BajtJc0pIeVFIgs9uqLhJSb9jAAAAAElFTkSuQmCC",
+    "width": 3407,
+    "height": 3637,
+    "aspectRatio": "square"
+  },
+  "/SamplesCompressed/Korpt Appreal Flyer.webp": {
+    "blurDataURL": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAIAAAACUFjqAAAACXBIWXMAAAPoAAAD6AG1e1JrAAABQUlEQVR4nAE2Acn+AOj3/s7U16qkoqShoLG2ucLW4bfE0b7Bzc7N2Nff6ADT6PO4wsiTk5SSk5OiqKu6zNSyws63xNPG0N7V4esAr8jWk6Grcnd9cXV4houNqLO2sL7Gt8rZwtTk0OLuAICYq2Z3hUhUXUlPVGJobI2YoqK5zafN7KjO7rDT8ABfZ31PV2VASVFDSEtdVlWAfIKWnrCaudiSt9qSttwAW01kXVtsWmhzYnJ8d2hmiXp8jIWPgp+8eZy/fqLKAGdAWGlhdWqCk3OUqpOCf56DfJ+Cd4eVn36TpoOatgBeOlZeWnRde5Nfi6p+fIGHeHSIbV9ve3ZqgYRwkZ0APzFdOUFpNVN3M16FS112U1xvWFpjS2ZpRnJ5SICPACIsZiEyZSA6Zx9DbylIby9McS1MayxebSZueid+kG+poeNCvtyfAAAAAElFTkSuQmCC",
+    "width": 3292,
+    "height": 3541,
+    "aspectRatio": "square"
+  },
+  "/SamplesCompressed/korptPP.webp": {
+    "blurDataURL": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAIAAAACUFjqAAAACXBIWXMAAAPoAAAD6AG1e1JrAAABBklEQVR4nD2Q3UvCUBjGz3nf7T1fO25js8YgCGwM0yC7yJGQJZR9GsUiwUvvStKw8N+PzQieu+d38fwexoFzRHAdIEIhoAqB63JEDpzVnQtCoJKoNRqNWoEUFeEgE8Yo3zdxJMNQRZFuxjZJdByJRgOIWJCme0fd7sXwZHx9endbPD4Uk0lneJ6222QtS/L8+GZ8//H+slq9rdfTn+/pZnM5mx30+8IPWNxqdUajq/n8abEol8vXr9Xz8nNQlvu9XlV7zZ3dLMuKIiuKfDCoc5Z2Dm2SoFIMhXCUcj3PtQ0KAgpDCgLHWlCymrYV20KOMY4xqDVIyakW+78FiVAKlBIE8b9b4BcHWiBFjt/93gAAAABJRU5ErkJggg==",
+    "width": 1254,
+    "height": 1254,
+    "aspectRatio": "square"
+  },
+  "/SamplesCompressed/Lashes Flyer.webp": {
+    "blurDataURL": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAIAAAACUFjqAAAACXBIWXMAAAPoAAAD6AG1e1JrAAABQUlEQVR4nAE2Acn+APXLdfHBbO66bfHMkNy9lLqafZpuVqF6YMexkOvivQDqyHzluW/lt3XoxZPNrYu1jnWlcVitfWTGpoTdzqUA3L+A06lt16152LeRvZyCsIBpsXNZuX5mwZh1zLOHANS5hsefb8ukfcSig7GOdqVvWLZ2W7h6YLuMaL+fcADMr4a9lW+6jW2ziW2edFyWXUaoaU6oalKqe1uwjmYAxq2Jtpd3sIlsqYFmj2JJf0kymVpBomRMrn9ksZR5AMWpg7SafKuLcaWCZ4dcQnE/KYRLM5dfSKd8Z62TggDJpnS8oH+wln2dgmt+WD5hNB91QSmIVT2ZblqegHAAxJtmuJyBqpKDnoBriF5BdUgtfk8xhlk6j2RHlW1SALSIV6eMepyEgJx8apNlRIlcO45gPJBjPJNlP5hpQ5I4oaVXlUbHAAAAAElFTkSuQmCC",
+    "width": 2500,
+    "height": 2740,
+    "aspectRatio": "square"
+  },
+  "/SamplesCompressed/Magnum Recycing flyer.webp": {
+    "blurDataURL": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAIAAAACUFjqAAAACXBIWXMAAAPoAAAD6AG1e1JrAAABQUlEQVR4nAE2Acn+AEqaMFujQ2+uWnGwW3KyXXKsU2OdR1KTRTmMOjCNMgBpqVN/s2+Zv46bwpCny5yqxpGUrHl3lWlTilVGkUwAerNnl8CLuNCyutO0x9zBx8+wrK6Pi5J5YopiUpRYAFmhQWypV3+ybX6ya4e5dYmva3eZVGOFPkqCLkKKKgA6kR1ImStWoTpVoDdSnzZOlC1EiSI8ghkwgxIrhQ8AKokLNI4TPJIbOZEXNY4TL4sPKIYJJIMFIIECH4ABACeFCC6HEDSJFzGIFC6GESqDDCWACCF9BB98Ah58AQAjdgkocxItbxoqbRclaRIhaQsjbQolbw0kcA0fbwoAHW0FHmULIF0QH1wPHFoNG1sJHmAJImMNIWYNHWcKABppAxpfBxlUCxhTChZRCBVTBBpYBh9cCyBhDRxjCl2SZp9lYESHAAAAAElFTkSuQmCC",
+    "width": 2000,
+    "height": 2000,
+    "aspectRatio": "square"
+  },
+  "/SamplesCompressed/mapleton business card design.webp": {
+    "blurDataURL": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAIAAAACUFjqAAAACXBIWXMAAAPoAAAD6AG1e1JrAAABQUlEQVR4nAE2Acn+AP5raP5raP9tav9ycP90cv9sav5fXf5SUf1KSf1EQwD+dXP+gX79kI77nZz7oJ78iYj8amj8UU/8SUj9RkYA/p2b/amo+Li388XE8cnI86Sj83Ft8kQ/9D46+kJCAPu1s/nHxvPa2u7k5Ozh4uuxr+hzbOU6MuUvKek0MQD7u7r5zczz19fvysnps7HjiYTdW1HXMibYKB/aKycA+5WT+aWj96+u85eU6nlz31tS10Q40TMo1Csk2SwoAP55d/2DgfyGhPZpZelFPdowJdEpH9MxKd0zMOk3NwD+YmD+YV/9X135Uk7vQDrgMirYLSfdMzDrODj2Oz0A/ldW/ldV/lVT/VJQ90dG7Dw65zU07Dc39To8+Tk8AP5RT/5RT/5PTv5NTf1KSvhERPc/QfY7Pfk5PPc1OXYnrjISnw0sAAAAAElFTkSuQmCC",
+    "width": 3453,
+    "height": 3000,
+    "aspectRatio": "landscape"
+  },
+  "/SamplesCompressed/PUBG flyer.webp": {
+    "blurDataURL": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAIAAAACUFjqAAAACXBIWXMAAAPoAAAD6AG1e1JrAAABQUlEQVR4nAE2Acn+ABUXJiQlMUFBSWBgXnt7dHBvalFQTy4uUBwdYw0OegAjJTJAQUtnZ211dnaEhYV+f4BwcXNQUWguMGgTE28AP0NbZWx6lJyimaWtl6q2jKa3h56ucISXRlB2ICdkAEtUimt3lpGirJGpuI+xxoStx3mctGiFmkNTaicxTgBJS59bYpdyfZN2hp57jqp2krVgfqBUdpU7VXAvRWAAQ0GgUE+OXV98WFpyWlhtWVxyTVhySV57OE5uLkRkAHlyr314o4N9lX50hHdmcWVaZk1QZUZXcz5Tcj9UcACutsest76qubOjraSbmZGKg4BraXNZYXE/TWA7RlUA0OjNvuC9rNesrc+ot7uhsJ6TjXl+bWpyS1JdQklTALjft5vRmnzEfIW8faKqga6Ofp94eHptb1FUWjk9RkGqiDovOxT4AAAAAElFTkSuQmCC",
+    "width": 2500,
+    "height": 2908,
+    "aspectRatio": "square"
+  },
+  "/SamplesCompressed/quick bite food flyer.webp": {
+    "blurDataURL": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAIAAAACUFjqAAAACXBIWXMAAAPoAAAD6AG1e1JrAAABQUlEQVR4nAE2Acn+ALNVQbtBLMMvGcEmErAqFqZDJpNSKntXK3RTH3daHwC6V0G+QizDNRnBORKxPRakUCaTViyDXzB7VSR4UiIAtk04vEApxUEcxVUVsVYWol8mlFoskGUzh1Ume0giAK4+J7g4IMVAGsVTD6tRD51hJ5FgNo9sPnZLJVwuFAC2SjK9PibEOxrEQhCqQBCeVyiSYTiPbUBxSydULxgAxF5BxEouxDUdwi0VsC8YqkwrnmE6mWpCek4vYjsjAMBdQMFHLcEuGb8lEbgpFbBGKqNaNZ1oPYRTMHBILgCwTTK7RC3EOSbCLxu+NB+6VDatZUCpdUaWYjeOYDsAqEcqtEAqwTkovi4auDIfqUw0k1s9iGxCflw0fl45AKhLLbNELb9AL701Ia85JZZELHVJMGdUMmpQLHhdNaO5bKEf1ldaAAAAAElFTkSuQmCC",
+    "width": 3508,
+    "height": 4961,
+    "aspectRatio": "portrait"
+  },
+  "/SamplesCompressed/Revend branding.webp": {
+    "blurDataURL": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAIAAAACUFjqAAAACXBIWXMAAAPoAAAD6AG1e1JrAAABQUlEQVR4nAE2Acn+ABYgTRYeTRYdTxYdUBYdUB1EVFF+eYm4or3Jx8PIzAAzVGcvQ2QrNGMqMWUiKl4gTF5UiIGJyanE3dDN29cAMlVnLkRmLDZpKzNsIytjHU5iQ46CcNSnqO3IuO7QAC9OYyxAYio0ZSgxaCApXxZFYCV6dD23kV/Npm7QrABYXn1ZX4BbYIZbYYhZXoQ9aHkuhXwoqIM9v49GxJEAnJ+woKO1pai6pqi7o6W4bpScSpeOIpyAMbOLMbeJAN3f4uPk5+nq7ezt8Orr75+8vmOdmSWDdDaZgDeegADf4eTk5ujs7fDv8PTv8PSktb9hhpMcWGcmanIqcXUA09XZ1dba2Nne2tzi2drhl52vWGSBHC9XITleJT9hAMrL0cvM0szN08vM1MfI0YyPpFZafCQqWCgwXio0X+zCmk6osoL6AAAAAElFTkSuQmCC",
+    "width": 2548,
+    "height": 1911,
+    "aspectRatio": "landscape"
+  },
+  "/SamplesCompressed/revend visa card.webp": {
+    "blurDataURL": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAIAAAACUFjqAAAACXBIWXMAAAPoAAAD6AG1e1JrAAABOElEQVR4nGNgcJADIUc5Jmd5VjdldndVVldlJicFqDi3p5qgr6ZYkJ5UhIlcjKVstIVwoAG3pyaLsxKzkyKDWaabaYazcYazcY6nSb6/Ua6PZX6gfWGYUYqnRKAJQ3hrSkhTfEBjnHdjolt9gn1FZEhLZvH05qSOErN0X4bUScUx3dnBbameDUmutfHOVTE5U2oX71ozZe38uNYCBu+mFO+mFL/GVL+6lJD69Jjm3NqZnat3bVqweWX1zE4G3UwP2+Kw8KbsosmNbfMnTlw2e+66JYu3rO5cNCWzp5JBJMhQJ9k1pDa9alp7+9yJjTO6Kya1ZnVWBlWm2mYHMzA5KUgEGttmB8c25Se1FQdXpznmh+slukkGmXB7aDAwOMhzuKmJBxjLh1lKBBhzuqox2csz2MsxgEh5AB2TZJ6Ue2xPAAAAAElFTkSuQmCC",
+    "width": 4500,
+    "height": 3000,
+    "aspectRatio": "landscape"
+  },
+  "/SamplesCompressed/snooker flyer.webp": {
+    "blurDataURL": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAIAAAACUFjqAAAACXBIWXMAAAPoAAAD6AG1e1JrAAABNklEQVR4nGNgYGJgYmUQlGBX1BfUc5YycJdTMBAWkOBigABGZgYuARZZPR59T1GLKGnLaFldD1EpLR42biaQNBMzo6gsj76LlGOaomOhvE2OpGW0mLoZn6AwG0iamY1JxkjELFHNsV3HtFXRqFLMN0vK0V5YS5aHkYGBgZWdSVZP1CJczblCx7RE0SBD1CNU0t5YSEucl5mZkYFTgE1OX9jER8EuQ800SdEkRsrdR97BWFxbRoiLn51BVlfS0ELNw9HQ28vM28nIx13Hy8nA0VlXw1xd1FCawT7OzDfePTE1Oik5qjghuC7ePi/OMSHe0irKUiNWnyFsdkzkpLTECcXx7TmlTYmN1V55Nb4Jrd7O3UFWk70Z4g8VhWws9F9RHDQnI2NabH6Pe3i3l980T8clYe5bIwBY9UOF8ZmelAAAAABJRU5ErkJggg==",
+    "width": 2100,
+    "height": 2100,
+    "aspectRatio": "square"
+  },
+  "/SamplesCompressed/summer hangout flyer.webp": {
+    "blurDataURL": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAIAAAACUFjqAAAACXBIWXMAAAPoAAAD6AG1e1JrAAABQUlEQVR4nAE2Acn+AMbord7pnvTpjPXniPLoie/tjezpit/qisHgl6PbqADK253d2H/w1mb02XD03nv05IDy3njq3HHb3Y/M47UA19mm49R48NBQ9dVS99xn+uJu+d1l6Mxa28h/0MmmANncvuXco+3aiOzch+jfne/bofPTlOS8e9e+kMy+pADn47ft467s4aPm3pzg3q3o17DszqTguYzRt5LHtZYA69iR6MqO4L2K1rGO0LKZ06eXyJyNxZh/xKqO0r2aAOTAZtOjYMOMX7qHY72NbbOFa6SCbJ6FbqubgbyrjADjvFjJoWO4jnSxk3u6mYCdgm6HeWx7d26Tk4iin5AA6M2C0MCawLi1u8W8xMe9qbCroammnqeltry2ur64AOvio+Dkxdvo6Nzw8+Hv8cza3sPR08HO0NHb29Ha23Yh2F2rnrDKAAAAAElFTkSuQmCC",
+    "width": 2007,
+    "height": 2173,
+    "aspectRatio": "square"
+  },
+  "/SamplesCompressed/tadex iphone flyer.webp": {
+    "blurDataURL": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAIAAAACUFjqAAAACXBIWXMAAAPoAAAD6AG1e1JrAAABQUlEQVR4nAE2Acn+AKSaoKyaobOYn7ifprWlq5OaoIWWloZ/abmcfNWuiwBlaXRyc35/fYmHhpOIkJ12kZ9tmadqkZSHm5aZm48AJThGMUVVQVZnQ1tuS2uBUH6WXZasYKG2Z5qpZIuXACs9SzdJV0FUYjhOXzhacUh/nV+duWW11VKXsTl+mwAmMz0zPEM8QkgyOkMwSFlAdZJanLlouttXm7Y+g6EAODAtWEAzdE43b0g1X09LWHiLVaLDWsHsTKDCPoShAEE4NGZNPoVbQXxPOmlRSV9zgFefvFq64Uyauj14kQBWT0+Ic2img26RaVh2XFBnbG1jjZhjnK5VhZdAZXcAPk1bYGx3bHV8Vl5mR1JaS1xlWHB2WnJ4S2FpNUlVADZHVlRibl5ocUlWXzxMVj9TXUldZEdXXDpITyg3QZhFgcbScsj1AAAAAElFTkSuQmCC",
+    "width": 2252,
+    "height": 2500,
+    "aspectRatio": "square"
+  }
+}

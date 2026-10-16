@@ -1,14 +1,28 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Outfit } from "next/font/google";
 import "./globals.css";
 import { NavBar } from "@/components/navbar";
-import { Analytics } from '@vercel/analytics/react';
+import { Analytics } from "@vercel/analytics/react";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
+const outfit = Outfit({ subsets: ["latin"], variable: "--font-outfit" });
 
 export const metadata: Metadata = {
-  title: "Amogelang Moatswi - Developer Portfolio",
-  description: "Personal portfolio of Amogelang Moatswi, showcasing skills in development, network engineering, and graphic design.",
+  title: "Amogelang Moatswi - Full-Stack Developer & Designer",
+  description:
+    "Personal portfolio of Amogelang Moatswi: Full-stack developer, graphic designer, and IT specialist with a background in Network Security and Computer Forensics.",
+  openGraph: {
+    title: "Amogelang Moatswi - Full-Stack Developer & Designer",
+    description:
+      "Full-stack developer, graphic designer, and IT specialist based in Botswana.",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Amogelang Moatswi - Full-Stack Developer & Designer",
+    description:
+      "Full-stack developer, graphic designer, and IT specialist based in Botswana.",
+  },
 };
 
 interface RootLayoutProps {
@@ -17,8 +31,8 @@ interface RootLayoutProps {
 
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
-    <html lang="en">
-      <body className={`${inter.className} bg-backgrou flex flex-col min-h-screen`}>
+    <html lang="en" className={`${inter.variable} ${outfit.variable}`} suppressHydrationWarning data-scroll-behavior="smooth">
+      <body className="font-sans bg-background text-foreground flex flex-col min-h-screen">
         <NavBar />
         <main className="flex-grow pt-16">{children}</main>
         <Analytics />

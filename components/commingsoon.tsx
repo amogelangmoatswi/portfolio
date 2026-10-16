@@ -2,7 +2,6 @@
 
 import React from 'react'
 import { motion } from 'framer-motion'
-import { GithubIcon, FacebookIcon, LinkedinIcon } from 'lucide-react'
 
 export default function ComingSoon() {
   return (
