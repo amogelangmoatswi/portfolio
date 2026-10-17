@@ -63,12 +63,6 @@ export default function HeroSection() {
                   className="w-full h-full"
                   intro={false}
                 />
-                {/* Back side label */}
-                <div className="absolute bottom-3 left-3 sm:bottom-4 sm:left-4 z-10">
-                  <span className="text-xs sm:text-sm text-white/70 font-medium bg-black/50 backdrop-blur-sm px-2.5 py-1 rounded-full border border-white/10">
-                    ✨ Click to flip back
-                  </span>
-                </div>
               </div>
             }
           >
@@ -104,12 +98,6 @@ export default function HeroSection() {
                 </div>
               </motion.div>
 
-              {/* Flip hint on front */}
-              <div className="absolute bottom-3 left-3 sm:bottom-4 sm:left-4 z-20">
-                <span className="text-[10px] sm:text-xs text-white/50 font-medium bg-black/40 backdrop-blur-sm px-2 py-0.5 rounded-full border border-white/5 select-none pointer-events-none">
-                  Click to flip
-                </span>
-              </div>
             </div>
           </TiltedCard>
         </motion.div>
