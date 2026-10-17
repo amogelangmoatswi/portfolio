@@ -1,11 +1,10 @@
 "use client";
 
 import { motion } from "framer-motion";
-import Image from "next/image";
 import { Button } from "@/components/ui/button";
-import { Github, Linkedin, Mail, Sparkles, Image as ImageLucide, FileDown } from "lucide-react";
+import { Github, Linkedin, Mail, FileDown } from "lucide-react";
 import { personalInfo } from "@/data/portfolio";
-import { useState } from "react";
+import TiltedCard from "@/components/ui/TiltedCard";
 import LetterGlitch from "@/components/ui/LetterGlitch";
 import Noise from "@/components/ui/Noise";
 import { TypingAnimation } from "@/components/ui/typing-animation";
@@ -19,29 +18,63 @@ const roles = [
 ];
 
 export default function HeroSection() {
-  const [bannerMode, setBannerMode] = useState<"photo" | "glitch">("photo");
-
   return (
     <section id="Home" className="relative mb-16">
       {/* Banner + Avatar container */}
       <div className="relative mb-14 sm:mb-16">
-        {/* Banner */}
+        {/* TiltedCard Banner */}
         <motion.div
           initial={{ opacity: 0, scale: 1.05 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8 }}
-          className="relative h-44 sm:h-56 md:h-64 w-full rounded-xl overflow-hidden border border-cvstroke/20"
+          className="relative w-full"
         >
-          {bannerMode === "photo" ? (
-            <div className="relative w-full h-full">
-              <Image
-                src={personalInfo.bannerUrl}
-                alt="Scenic background showcasing Amogelang's creative work"
-                fill
-                priority
-                className="object-cover"
-                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 75vw, 55vw"
-              />
+          <TiltedCard
+            imageSrc={personalInfo.bannerUrl}
+            altText="Scenic background showcasing Amogelang's creative work"
+            captionText="Click to flip"
+            containerHeight="100%"
+            containerWidth="100%"
+            imageHeight="100%"
+            imageWidth="100%"
+            rotateAmplitude={8}
+            scaleOnHover={1.02}
+            glare={0.35}
+            shadow={0.4}
+            radius={12}
+            perspective={1200}
+            smoothness={0.5}
+            floating={false}
+            intro={true}
+            className="w-full !h-44 sm:!h-56 md:!h-64"
+            style={{ width: '100%' }}
+            backContent={
+              <div className="absolute inset-0 bg-[#09090b] rounded-xl overflow-hidden">
+                <LetterGlitch
+                  key="hero-letter-glitch"
+                  glitchColors={["#ffffff", "#61dca3", "#38bdf8", "#a855f7"]}
+                  baseColor="#cbd5e1"
+                  baseOpacity={0.4}
+                  glitchAmount={0.55}
+                  speed={1}
+                  flow={0.5}
+                  clickEffect="tear"
+                  backgroundColor="#09090b"
+                  className="w-full h-full"
+                  intro={false}
+                />
+                {/* Back side label */}
+                <div className="absolute bottom-3 left-3 sm:bottom-4 sm:left-4 z-10">
+                  <span className="text-xs sm:text-sm text-white/70 font-medium bg-black/50 backdrop-blur-sm px-2.5 py-1 rounded-full border border-white/10">
+                    ✨ Click to flip back
+                  </span>
+                </div>
+              </div>
+            }
+          >
+            {/* Front-side overlay content */}
+            <div className="absolute inset-0 z-[1]">
+              {/* Noise texture overlay */}
               <Noise
                 opacity={0.25}
                 size={1}
@@ -50,79 +83,35 @@ export default function HeroSection() {
                 contrast={0.65}
                 colored={false}
               />
-            </div>
-          ) : (
-            <div className="absolute inset-0 bg-[#09090b]">
-              <LetterGlitch
-                key="hero-letter-glitch"
-                glitchColors={["#ffffff", "#61dca3", "#38bdf8", "#a855f7"]}
-                baseColor="#cbd5e1"
-                baseOpacity={0.4}
-                glitchAmount={0.55}
-                speed={1}
-                flow={0.5}
-                clickEffect="tear"
-                backgroundColor="#09090b"
-                className="w-full h-full"
-                intro={false}
-              />
-            </div>
-          )}
+              {/* Vignette gradient */}
+              <div className="absolute inset-0 pointer-events-none bg-gradient-to-t from-background via-background/30 to-transparent" />
 
-          {/* Vignette / gradient blend: softer for glitch mode so the matrix effect is crisp */}
-          <div
-            className={`absolute inset-0 pointer-events-none transition-opacity duration-300 ${
-              bannerMode === "photo"
-                ? "bg-gradient-to-t from-background via-background/30 to-transparent"
-                : "bg-gradient-to-t from-background/75 via-transparent to-black/20"
-            }`}
-          />
+              {/* Available Badge */}
+              <motion.div
+                initial={{ opacity: 0, y: -10 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.6, duration: 0.4 }}
+                className="absolute top-3 right-3 sm:top-4 sm:right-4 z-20"
+              >
+                <div className="flex items-center gap-1.5 sm:gap-2 bg-black/70 backdrop-blur-md border border-white/10 rounded-full px-2.5 sm:px-3.5 py-1 sm:py-1.5 text-[11px] sm:text-xs text-white/90 font-medium shadow-sm select-none">
+                  <span className="relative flex h-2 w-2">
+                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75" />
+                    <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500" />
+                  </span>
+                  <span>
+                    Available<span className="hidden sm:inline"> for Work</span>
+                  </span>
+                </div>
+              </motion.div>
 
-          {/* Banner Toggle: Photo vs Glitch */}
-          <div className="absolute top-3 left-3 sm:top-4 sm:left-4 z-20 flex items-center bg-black/70 backdrop-blur-md border border-white/10 rounded-full p-0.5 sm:p-1 text-[11px] sm:text-xs">
-            <button
-              type="button"
-              onClick={() => setBannerMode("photo")}
-              className={`px-2.5 sm:px-3 py-1 rounded-full transition-all flex items-center gap-1 font-medium ${
-                bannerMode === "photo"
-                  ? "bg-primary text-primary-foreground shadow-sm"
-                  : "text-muted-foreground hover:text-white"
-              }`}
-            >
-              <ImageLucide className="w-3 h-3 sm:w-3.5 sm:h-3.5" />
-              <span>Photo</span>
-            </button>
-            <button
-              type="button"
-              onClick={() => setBannerMode("glitch")}
-              className={`px-2.5 sm:px-3 py-1 rounded-full transition-all flex items-center gap-1 font-medium ${
-                bannerMode === "glitch"
-                  ? "bg-primary text-primary-foreground shadow-sm"
-                  : "text-muted-foreground hover:text-white"
-              }`}
-            >
-              <Sparkles className="w-3 h-3 sm:w-3.5 sm:h-3.5" />
-              <span>Glitch</span>
-            </button>
-          </div>
-
-          {/* Available Badge - responsive text so it never collides on 360-390px screens */}
-          <motion.div
-            initial={{ opacity: 0, y: -10 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.6, duration: 0.4 }}
-            className="absolute top-3 right-3 sm:top-4 sm:right-4 z-20"
-          >
-            <div className="flex items-center gap-1.5 sm:gap-2 bg-black/70 backdrop-blur-md border border-white/10 rounded-full px-2.5 sm:px-3.5 py-1 sm:py-1.5 text-[11px] sm:text-xs text-white/90 font-medium shadow-sm select-none">
-              <span className="relative flex h-2 w-2">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75" />
-                <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500" />
-              </span>
-              <span>
-                Available<span className="hidden sm:inline"> for Work</span>
-              </span>
+              {/* Flip hint on front */}
+              <div className="absolute bottom-3 left-3 sm:bottom-4 sm:left-4 z-20">
+                <span className="text-[10px] sm:text-xs text-white/50 font-medium bg-black/40 backdrop-blur-sm px-2 py-0.5 rounded-full border border-white/5 select-none pointer-events-none">
+                  Click to flip
+                </span>
+              </div>
             </div>
-          </motion.div>
+          </TiltedCard>
         </motion.div>
 
         {/* Avatar - positioned on top of the banner */}
@@ -130,7 +119,7 @@ export default function HeroSection() {
           initial={{ scale: 0, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
           transition={{ delay: 0.3, duration: 0.5, type: "spring", stiffness: 200 }}
-          className="absolute -bottom-10 sm:-bottom-12 left-4 sm:left-8"
+          className="absolute -bottom-10 sm:-bottom-12 left-4 sm:left-8 z-10"
         >
           <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-full border-4 border-background overflow-hidden">
             <img
