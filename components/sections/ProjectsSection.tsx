@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
 import { ExternalLink, Github } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -22,7 +23,7 @@ export default function ProjectsSection() {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: "-100px" }}
       transition={{ duration: 0.6 }}
-      className="mb-16"
+      className="mb-16 scroll-mt-24"
     >
       <h2 className="text-2xl font-bold font-display mb-6 flex items-center gap-3">
         <span className="h-px flex-1 max-w-[40px] bg-primary/50" />
@@ -41,21 +42,47 @@ export default function ProjectsSection() {
           >
             <NoiseTexture className="opacity-20 dark:opacity-30 pointer-events-none" frequency={0.5} octaves={5} slope={0.16} />
             <div>
-              {/* Project preview header with custom themed gradient */}
-              <div className={cn("relative h-44 bg-gradient-to-br overflow-hidden border-b border-white/5", projectGradients[index % projectGradients.length])}>
-                <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_50%,rgba(255,255,255,0.08),transparent_70%)]" />
-                <div className="absolute inset-0 flex flex-col items-center justify-center p-4">
-                  <span className="text-3xl font-extrabold font-display text-white/30 group-hover:text-white/60 tracking-wider transition-all duration-300 group-hover:scale-105">
-                    {project.title.split(" ")[0]}
-                  </span>
-                  {project.liveUrl && (
-                    <span className="text-xs text-white/40 mt-1 font-mono tracking-tight group-hover:text-primary transition-colors">
-                      {project.liveUrl.replace("https://", "").replace(/\/$/, "")}
-                    </span>
-                  )}
-                </div>
-                {/* Hover overlay */}
-                <div className="absolute inset-0 bg-primary/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+              {/* Project homepage screenshot preview */}
+              <div
+                className={cn(
+                  "relative h-48 overflow-hidden border-b border-white/10 bg-secondary/40",
+                  !project.image &&
+                    cn("bg-gradient-to-br", projectGradients[index % projectGradients.length])
+                )}
+              >
+                {project.image ? (
+                  <>
+                    <Image
+                      src={project.image}
+                      alt={`${project.title} homepage preview`}
+                      fill
+                      sizes="(max-width: 768px) 100vw, 50vw"
+                      className="object-cover object-top transition-transform duration-500 group-hover:scale-105"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/15 to-transparent opacity-80 group-hover:opacity-60 transition-opacity duration-300" />
+                    {project.liveUrl && (
+                      <span className="absolute bottom-2.5 left-3 text-[11px] font-mono tracking-tight text-white/90 bg-black/55 backdrop-blur-sm px-2 py-0.5 rounded-md border border-white/10">
+                        {project.liveUrl.replace("https://", "").replace(/\/$/, "")}
+                      </span>
+                    )}
+                  </>
+                ) : (
+                  <>
+                    <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_50%,rgba(255,255,255,0.08),transparent_70%)]" />
+                    <div className="absolute inset-0 flex flex-col items-center justify-center p-4">
+                      <span className="text-3xl font-extrabold font-display text-white/30 group-hover:text-white/60 tracking-wider transition-all duration-300 group-hover:scale-105">
+                        {project.title.split(" ")[0]}
+                      </span>
+                      {project.liveUrl && (
+                        <span className="text-xs text-white/40 mt-1 font-mono tracking-tight group-hover:text-primary transition-colors">
+                          {project.liveUrl.replace("https://", "").replace(/\/$/, "")}
+                        </span>
+                      )}
+                    </div>
+                  </>
+                )}
+                {/* Subtle hover tint */}
+                <div className="absolute inset-0 bg-primary/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none" />
               </div>
 
               <div className="p-5 pb-2">

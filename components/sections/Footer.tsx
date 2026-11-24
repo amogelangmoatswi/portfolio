@@ -2,6 +2,7 @@
 
 import { Github, Linkedin, Mail, Heart } from "lucide-react";
 import { personalInfo } from "@/data/portfolio";
+import { TikTokIcon } from "@/components/ui/tiktok-icon";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -32,6 +33,15 @@ export default function Footer() {
               aria-label="GitHub"
             >
               <Github className="h-4 w-4" />
+            </a>
+            <a
+              href={personalInfo.tiktokUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-muted-foreground hover:text-primary transition-colors"
+              aria-label="TikTok"
+            >
+              <TikTokIcon className="h-4 w-4" />
             </a>
             <a
               href={`mailto:${personalInfo.email}`}

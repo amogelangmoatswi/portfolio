@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Github, Linkedin, Mail, FileDown } from "lucide-react";
+import { TikTokIcon } from "@/components/ui/tiktok-icon";
 import { personalInfo } from "@/data/portfolio";
 import TiltedCard from "@/components/ui/TiltedCard";
 import LetterGlitch from "@/components/ui/LetterGlitch";
@@ -183,6 +184,11 @@ export default function HeroSection() {
             <a href={personalInfo.githubUrl} target="_blank" rel="noopener noreferrer">
               <Button variant="mine" size="icon" aria-label="GitHub" className="h-10 w-10">
                 <Github className="h-4 w-4" />
+              </Button>
+            </a>
+            <a href={personalInfo.tiktokUrl} target="_blank" rel="noopener noreferrer">
+              <Button variant="mine" size="icon" aria-label="TikTok" className="h-10 w-10">
+                <TikTokIcon className="h-4 w-4" />
               </Button>
             </a>
             <a href={`mailto:${personalInfo.email}`} className="ml-auto sm:ml-0">

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter, Outfit } from "next/font/google";
 import "./globals.css";
 import { NavBar } from "@/components/navbar";
+import { CookieConsent } from "@/components/ui/cookie-consent";
 import { Analytics } from "@vercel/analytics/react";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
@@ -35,6 +36,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
       <body className="font-sans bg-background text-foreground flex flex-col min-h-screen">
         <NavBar />
         <main className="flex-grow pt-16">{children}</main>
+        <CookieConsent />
         <Analytics />
       </body>
     </html>

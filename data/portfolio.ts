@@ -31,6 +31,15 @@ export interface CertificationItem {
   year?: string;
 }
 
+export interface TestimonialItem {
+  quote: string;
+  name: string;
+  role: string;
+  company: string;
+  initials: string;
+  rating: number;
+}
+
 export const personalInfo = {
   name: "Amogelang Moatswi",
   tagline: "Full-Stack Developer / Graphic Designer / IT Specialist",
@@ -39,6 +48,7 @@ export const personalInfo = {
   website: "https://moatswi.vercel.app/",
   linkedinUrl: "https://www.linkedin.com/in/amogelang-moatswi",
   githubUrl: "https://github.com/amogelangmoatswi",
+  tiktokUrl: "https://www.tiktok.com/@amogelang.dev",
   avatarUrl: "/avatar.jpg",
   bannerUrl: "/banner3.jpg",
   about:
@@ -192,6 +202,7 @@ export const projects: Project[] = [
     techStack: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Framer Motion"],
     liveUrl: "https://moscorp-media-inc.vercel.app/",
     githubUrl: "https://github.com/amogelangmoatswi",
+    image: "/projects/moscorp.png",
   },
   {
     title: "ReVend Recycling Platform",
@@ -200,6 +211,7 @@ export const projects: Project[] = [
     techStack: ["Next.js", "React", "TypeScript", "Tailwind CSS", "IoT / Hardware"],
     liveUrl: "https://revend.vercel.app/",
     githubUrl: "https://github.com/amogelangmoatswi",
+    image: "/projects/revend.png",
   },
   {
     title: "First Portfolio Website",
@@ -208,6 +220,7 @@ export const projects: Project[] = [
     techStack: ["HTML5", "CSS3", "JavaScript", "Bootstrap"],
     liveUrl: "https://amogelangmoatswi.github.io/porfolio/",
     githubUrl: "https://github.com/amogelangmoatswi/porfolio",
+    image: "/projects/first-portfolio.png",
   },
   {
     title: "Interactive Portfolio v2.0",
@@ -216,5 +229,53 @@ export const projects: Project[] = [
     techStack: ["Next.js 16", "React 19", "Three.js", "WebGL", "Tailwind CSS"],
     liveUrl: "https://moatswi.vercel.app/",
     githubUrl: "https://github.com/amogelangmoatswi",
+    image: "/projects/portfolio-v2.png",
+  },
+  {
+    title: "ForgeCV",
+    description:
+      "AI-powered CV builder, cover letter generator, and Botswana job discovery platform with Better Auth authentication, PDF/DOCX export, and PostgreSQL persistence.",
+    techStack: ["React", "TypeScript", "Vite", "Tailwind CSS", "PostgreSQL", "Better Auth"],
+    liveUrl: "https://forgecv-mu.vercel.app",
+    githubUrl: "https://github.com/amogelangmoatswi/forgecv",
+  },
+  {
+    title: "TswanaCinema",
+    description:
+      "Full-stack cinema and television discovery catalog powered by TMDB metadata, featuring trending carousels, multi-filter search, cast credits, and episode guides.",
+    techStack: ["React", "TypeScript", "Vite", "Tailwind CSS", "Express", "TMDB API"],
+    liveUrl: "https://tswana-cinema.vercel.app/",
+    githubUrl: "https://github.com/amogelangmoatswi/TswanaCinema",
+    image: "/projects/tswanacinema.png",
+  },
+];
+
+export const testimonials: TestimonialItem[] = [
+  {
+    quote:
+      "Dependable under pressure and thorough with troubleshooting. He kept our workstations, printers, and network infrastructure running smoothly while supporting staff across departments.",
+    name: "Mr. Mbatshi William",
+    role: "IT HOD",
+    company: "Nyangabgwe Referral Hospital",
+    initials: "MW",
+    rating: 5,
+  },
+  {
+    quote:
+      "From custom apparel print workflows to client branding, he translates rough ideas into sharp, cohesive designs quickly and reliably under tight deadlines.",
+    name: "Mr Keneemang",
+    role: "Director",
+    company: "Abba Ads",
+    initials: "MK",
+    rating: 5,
+  },
+  {
+    quote:
+      "Amogelang has an uncommon eye for both visual polish and clean front-end architecture. Every brand asset and digital campaign he delivered was production-ready on the first pass.",
+    name: "Mr G. Mbeza",
+    role: "Manager",
+    company: "Gold Spectrum",
+    initials: "GM",
+    rating: 5,
   },
 ];

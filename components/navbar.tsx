@@ -2,6 +2,7 @@
 
 import { cn } from "@/lib/utils";
 import { MenuIcon, Github, Linkedin, Mail } from "lucide-react";
+import { TikTokIcon } from "./ui/tiktok-icon";
 import Link from "next/link";
 import * as React from "react";
 import { Button } from "./ui/button";
@@ -64,10 +65,7 @@ export function NavBar() {
       <div className="flex justify-center items-center w-full px-3 sm:px-4">
         <div className="flex justify-between items-center w-full max-w-2xl text-foreground relative bg-black/70 backdrop-blur-md border border-white/10 shadow-xl shadow-black/40 rounded-full px-3 sm:px-4 py-1.5 sm:py-2">
           {/* Logo */}
-          <Link href="/" className="flex items-center space-x-2 pl-1 group">
-            <div className="w-7 h-7 sm:w-8 sm:h-8 bg-primary rounded-full flex items-center justify-center shadow-sm shadow-primary/30 group-hover:scale-105 transition-transform">
-              <span className="text-primary-foreground font-bold text-[11px] sm:text-xs tracking-wider">AM</span>
-            </div>
+          <Link href="/" className="flex items-center pl-2 group">
             <span className="text-foreground font-semibold text-xs sm:text-sm group-hover:text-primary transition-colors">Mr.Moatswi</span>
           </Link>
 
@@ -95,12 +93,7 @@ export function NavBar() {
             <SheetContent side="right" className="bg-neutral-950/98 backdrop-blur-2xl border-l border-white/10 text-white flex flex-col justify-between w-[280px] sm:w-[320px] p-6">
               <div>
                 <SheetHeader className="text-left mb-6">
-                  <div className="flex items-center space-x-2 mb-1">
-                    <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center">
-                      <span className="text-primary-foreground font-bold text-xs">AM</span>
-                    </div>
-                    <SheetTitle className="text-white text-base font-display">Amogelang Moatswi</SheetTitle>
-                  </div>
+                  <SheetTitle className="text-white text-base font-display mb-1">Amogelang Moatswi</SheetTitle>
                   <SheetDescription className="text-muted-foreground text-xs">
                     Full-Stack Developer & Designer
                   </SheetDescription>
@@ -143,6 +136,15 @@ export function NavBar() {
                     aria-label="GitHub Profile"
                   >
                     <Github className="h-4 w-4" />
+                  </a>
+                  <a
+                    href="https://www.tiktok.com/@amogelang.dev"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="p-2.5 rounded-full bg-white/5 border border-white/10 text-white/80 hover:text-white hover:bg-white/15 transition flex-1 flex justify-center"
+                    aria-label="TikTok Profile"
+                  >
+                    <TikTokIcon className="h-4 w-4" />
                   </a>
                   <a
                     href="mailto:moatswi12@gmail.com"
