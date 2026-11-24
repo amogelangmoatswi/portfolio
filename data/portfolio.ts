@@ -219,8 +219,9 @@ export const projects: Project[] = [
     description:
       "AI-powered CV builder, cover letter generator, and Botswana job discovery platform with Better Auth authentication, PDF/DOCX export, and PostgreSQL persistence.",
     techStack: ["React", "TypeScript", "Vite", "Tailwind CSS", "PostgreSQL", "Better Auth"],
-    liveUrl: "https://forgecv-mu.vercel.app",
+    liveUrl: "https://forgecvbw.vercel.app/",
     githubUrl: "https://github.com/amogelangmoatswi/forgecv",
+    image: "/projects/forgecv.png",
   },
   {
     title: "TswanaCinema",
