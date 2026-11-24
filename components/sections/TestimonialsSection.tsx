@@ -82,7 +82,7 @@ export default function TestimonialsSection() {
             </div>
 
             {/* Minimal author switcher */}
-            <div className="flex items-center gap-2" role="tablist" aria-label="Select testimonial">
+            <div className="flex flex-wrap items-center gap-2" role="tablist" aria-label="Select testimonial">
               {testimonials.map((item, idx) => {
                 const isActive = idx === activeIndex;
                 return (
@@ -94,7 +94,7 @@ export default function TestimonialsSection() {
                     aria-label={`${item.name}, ${item.company}`}
                     onClick={() => setActiveIndex(idx)}
                     className={cn(
-                      "h-9 px-3 rounded-full text-xs font-medium transition-all flex items-center gap-2 border",
+                      "h-9 px-3 rounded-full text-xs font-medium transition-all flex items-center gap-2 border whitespace-nowrap shrink-0",
                       isActive
                         ? "bg-primary/15 text-primary border-primary/40 shadow-sm"
                         : "bg-secondary/50 text-muted-foreground border-border/40 hover:text-foreground hover:border-border"
@@ -102,7 +102,7 @@ export default function TestimonialsSection() {
                   >
                     <span
                       className={cn(
-                        "h-5 w-5 rounded-full text-[10px] font-bold flex items-center justify-center",
+                        "h-5 w-5 rounded-full text-[10px] font-bold flex items-center justify-center shrink-0",
                         isActive
                           ? "bg-primary text-primary-foreground"
                           : "bg-background/60 text-muted-foreground"
@@ -110,7 +110,7 @@ export default function TestimonialsSection() {
                     >
                       {item.initials}
                     </span>
-                    <span className="hidden sm:inline">{item.name.split(" ")[0]}</span>
+                    <span>{item.shortName}</span>
                   </button>
                 );
               })}

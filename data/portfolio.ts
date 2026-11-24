@@ -34,6 +34,7 @@ export interface CertificationItem {
 export interface TestimonialItem {
   quote: string;
   name: string;
+  shortName: string;
   role: string;
   company: string;
   initials: string;
@@ -214,24 +215,6 @@ export const projects: Project[] = [
     image: "/projects/revend.png",
   },
   {
-    title: "First Portfolio Website",
-    description:
-      "My inaugural personal portfolio featuring custom CSS keyframe animations, smooth interactive navigation, responsive layout, and project showcases.",
-    techStack: ["HTML5", "CSS3", "JavaScript", "Bootstrap"],
-    liveUrl: "https://amogelangmoatswi.github.io/porfolio/",
-    githubUrl: "https://github.com/amogelangmoatswi/porfolio",
-    image: "/projects/first-portfolio.png",
-  },
-  {
-    title: "Interactive Portfolio v2.0",
-    description:
-      "High-performance developer portfolio featuring custom WebGL letter glitch shaders, 3D animated shader gradients, and a sleek dark glassmorphic UI.",
-    techStack: ["Next.js 16", "React 19", "Three.js", "WebGL", "Tailwind CSS"],
-    liveUrl: "https://moatswi.vercel.app/",
-    githubUrl: "https://github.com/amogelangmoatswi",
-    image: "/projects/portfolio-v2.png",
-  },
-  {
     title: "ForgeCV",
     description:
       "AI-powered CV builder, cover letter generator, and Botswana job discovery platform with Better Auth authentication, PDF/DOCX export, and PostgreSQL persistence.",
@@ -248,6 +231,24 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/amogelangmoatswi/TswanaCinema",
     image: "/projects/tswanacinema.png",
   },
+  {
+    title: "Interactive Portfolio v2.0",
+    description:
+      "High-performance developer portfolio featuring custom WebGL letter glitch shaders, 3D animated shader gradients, and a sleek dark glassmorphic UI.",
+    techStack: ["Next.js 16", "React 19", "Three.js", "WebGL", "Tailwind CSS"],
+    liveUrl: "https://moatswi.vercel.app/",
+    githubUrl: "https://github.com/amogelangmoatswi",
+    image: "/projects/portfolio-v2.png",
+  },
+  {
+    title: "First Portfolio Website",
+    description:
+      "My inaugural personal portfolio featuring custom CSS keyframe animations, smooth interactive navigation, responsive layout, and project showcases.",
+    techStack: ["HTML5", "CSS3", "JavaScript", "Bootstrap"],
+    liveUrl: "https://amogelangmoatswi.github.io/porfolio/",
+    githubUrl: "https://github.com/amogelangmoatswi/porfolio",
+    image: "/projects/first-portfolio.png",
+  },
 ];
 
 export const testimonials: TestimonialItem[] = [
@@ -255,6 +256,7 @@ export const testimonials: TestimonialItem[] = [
     quote:
       "Dependable under pressure and thorough with troubleshooting. He kept our workstations, printers, and network infrastructure running smoothly while supporting staff across departments.",
     name: "Mr. Mbatshi William",
+    shortName: "Mbatshi W.",
     role: "IT HOD",
     company: "Nyangabgwe Referral Hospital",
     initials: "MW",
@@ -264,6 +266,7 @@ export const testimonials: TestimonialItem[] = [
     quote:
       "From custom apparel print workflows to client branding, he translates rough ideas into sharp, cohesive designs quickly and reliably under tight deadlines.",
     name: "Mr Keneemang",
+    shortName: "Keneemang",
     role: "Director",
     company: "Abba Ads",
     initials: "MK",
@@ -273,6 +276,7 @@ export const testimonials: TestimonialItem[] = [
     quote:
       "Amogelang has an uncommon eye for both visual polish and clean front-end architecture. Every brand asset and digital campaign he delivered was production-ready on the first pass.",
     name: "Mr G. Mbeza",
+    shortName: "G. Mbeza",
     role: "Manager",
     company: "Gold Spectrum",
     initials: "GM",
